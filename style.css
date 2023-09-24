@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #CEFFFF;
+}
+
+#topbar {
+    width: 100%;
+    padding: 12px 80px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 6px 6px 6px #aaa;
+    border-bottom: 1px solid black;
+    z-index: 10;
+    background-color: #CEFFFF;
+    height: 70px;
+
+}
+
+#logo {
+    
+    font-size: 36px;
+    margin-left: -60px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.menu-items {
+
+    margin-left: 20px;
+    position: relative;
+    top: -3px;
+    left: 50%;
+    font-size: 20px;
+}
+.menu-items:hover{
+    color: grey;
+}
+
+.content {
+    margin-top: 100px;
+    margin-left: 100px;
+
+
+}
+
+.imgheader {
+    /* width: 250px;
+    height: 250px;
+    float: right;
+    position: relative;
+    top: -250px;
+    right:60px;
+    z-index: 9; */
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 110px;
+    right: -80px;
+    transform: translateX(-50%);
+    z-index: 9;
+}
+
+.content p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.content h1 {
+    font-weight: bolder;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: gray;
+}
+
+h3:hover {
+    color: black;
+}
+
+.maindiv {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+.container {
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutus {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+    color: black;
+}
+
+.aboutus i {
+    font-size: 50px;
+}
+.products{
+    /* display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap; */
+    display: inline-block;
+    height: 420px;
+    border-bottom: black 3px solid;
+    z-index: 8;
+}
+#productitems{
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 250px;
+    
+}
+
+#productitems img{
+    width: 150px;
+    height:300px;
+    margin-top: 30px;
+   
+   
+}
+.imgalign1{
+    position: absolute;
+    top: 136%;
+    left: -20px;
+    z-index: 7;
+}
+.imgalign1:hover{
+    transform: scale(1.1);
+}
+.imgalign2{
+    position: absolute;
+    top: 900px;
+    left: 400px;
+    z-index: 6;
+}
+.imgalign2:hover{
+    transform: scale(1.1);
+}
+.imgalign{
+    position: absolute;
+    top: 136%;
+    right: 200px;
+    z-index: 5;
+}
+.imgalign:hover{
+    transform: scale(1.1);
+}
+.productpara{
+    position: absolute;
+    top: 205%;
+    margin-left: 50px;
+
+}
+.bestsell{
+    position: relative;
+    z-index: 3;
+    background-color: white;
+    /* display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between; */
+    display: block;
+    height: 530px;
+    position: relative;
+    z-index: 3;
+   
+}
+.bestselheading{
+    display: block;
+    margin-left: 40px;
+   
+    
+}
+#bestsellitem{
+    text-align: center;
+    display: inline-block;
+    margin: 20px 40px ;
+}
+.shadow:hover{
+    box-shadow: 3px 3px 10px grey;
+}
+.feedback{
+    margin-top: 80px;
+    margin-left: 200px;
+    height: 300px;
+    
+}
+.feedback img{
+   
+    position: absolute;
+    top: 291%;
+    left: 1px;
+    z-index: 4;
+}
+.feedback h1{
+    font-weight: 1000;
+}
+.feedbackItems{
+    float: left;
+    margin-left: 110px;
+    
+}
+.joinus{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+footer{
+    height: 140px;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+input{
+    width: 900px;
+    height: 30px;
+}
+i{
+    font-size: 25px;
+    
+}
+
+
